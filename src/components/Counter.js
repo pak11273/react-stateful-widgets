@@ -57,14 +57,12 @@ export default function Counter() {
     setCount(
       count + 1
     )
-    console.log(count)
   };
   const decrement = () => {
     /* STEP 5 */
     setCount(
       count - 1 
     )
-    console.log(count)
   };
   const reset = () => {
     /* STEP 6 */
